@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "http-server . -p 3000 -c-1",
-    "build": "echo 'No build script configured yet'",
-    "start": "npm run dev"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "react-scripts start"
   },
   "dependencies": {},
   "devDependencies": {}

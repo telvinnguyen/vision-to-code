@@ -1,0 +1,101 @@
+.livelist-setting-block {
+  display: flex;
+  padding: 16px 16px 16px 0;
+  align-items: center;
+  align-self: stretch;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.number {
+  width: 24px;
+  color: #333;
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+}
+
+.setting-name {
+  align-self: stretch;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.setting-description {
+  align-self: stretch;
+  color: #999;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.toggle-container {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.toggle {
+  width: 30px;
+  height: 18px;
+}
+
+.toggle-active {
+  border-radius: 999px;
+}
+
+.toggle-inactive {
+  border-radius: 999px;
+}
+
+@media (max-width: 991px) {
+  .livelist-setting-block {
+    padding: 12px 12px 12px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .livelist-setting-block {
+    padding: 8px 8px 8px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .number {
+    width: 20px;
+    font-size: 12px;
+  }
+
+  .setting-name {
+    font-size: 12px;
+  }
+
+  .setting-description {
+    font-size: 11px;
+  }
+}
