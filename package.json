@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "echo 'No dev script configured yet'",
+    "dev": "http-server . -p 3000 -c-1",
     "build": "echo 'No build script configured yet'",
-    "start": "echo 'No start script configured yet'"
+    "start": "npm run dev"
   },
   "dependencies": {},
   "devDependencies": {}
